@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorStrings>
+  <PolyGroups ModuleName="MSIRTracker">
+    <PolyGroup Name="MSIRTracker" DisplayName="MS MS IR Tracker">
+      <Description><![CDATA[<p>Context help for PolyGroup <b>MSIRTracker</b></p>]]></Description>
+      <Parameter Name="Port" DisplayName="ポート" Link="page.html?Path=editor%2FPortSelector.html#Port">
+        <Description><![CDATA[多くのプログラミング ブロックでは、 EV3ブロックのポート（A、B、C、D、1、2、3、および4）を選択する必要があります。ポート セレクターはこれらのブロックの最上部右隅にあります。]]></Description>
+      </Parameter>
+      <Parameter Name="Direction" DisplayName="方向">
+        <Description><![CDATA[<p><b>タイプ:</b> 数値<br/><b>備考:</b> 赤外線の方向</p>]]></Description>
+      </Parameter>
+
+      <Category Name="MeasureACMode" DisplayName="ACモード">
+        <Block Mode="MeasureACDirection" DisplayName="方向">
+          <Description><![CDATA[「測定 - AC - 方向」モードは、RCJサッカーの赤外線ボール（Aモード）の信号方向を検出し、その結果を出力します。]]></Description>
+        </Block>
+      </Category>
+      <Category Name="MeasureDCMode" DisplayName="DCモード">
+        <Block Mode="MeasureDCDirection" DisplayName="方向">
+          <Description><![CDATA[「測定 - DC - 方向」モードは、RCJサッカーの赤外線ボール（Bモード）の信号方向を検出し、その結果を出力します。]]></Description>
+        </Block>
+      </Category>
+    </PolyGroup>
+  </PolyGroups>
+</EditorStrings>

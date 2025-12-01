@@ -33,7 +33,7 @@ Select “MSIRTracker” → “Measure” → “AC/DC Mode” → “Direction
 
 ---
 
-- Download the "MSIRTracker.ev3b" file from the [Releases page]((https://github.com/namo02268/MSIRTracker/releases)).
+- Download the "MSIRTracker.ev3b" file from the [Releases page](https://github.com/namo02268/MSIRTracker/releases).
 - Launch the EV3 software and open [Tools] > [Block Import].
 - Import the downloaded .ev3b file.
 - Restart the EV3 software.

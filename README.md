@@ -13,6 +13,8 @@ RCJサッカーで使用される赤外線ボール（Aモード / Bモード）
 The **Measure AC/DC Direction Mode** retrieves the **direction** of the infrared signal.  
 It can detect the signal direction of the RCJ soccer infrared ball (A mode / B mode).
 
+<!--TODO: CompareDirection追加-->
+
 ![Measure_Direction](./images/README_Measure_Direction.jpg)
 
 ## 方向 選択モード (Select AC/DC Direction Mode)

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EditorStrings>
   <PolyGroups ModuleName="MSIRTracker">
-    <PolyGroup Name="MSIRTracker" DisplayName="MS IR Tracker">
+    <PolyGroup Name="MSIRTracker" DisplayName="MSIRTracker">
       <Description><![CDATA[<p>Context help for PolyGroup <b>MSIRTracker</b></p>]]></Description>
       <Parameter Name="Port" DisplayName="Port" Link="page.html?Path=editor%2FPortSelector.html#Port">
         <Description><![CDATA[Many programming blocks require that you select the ports on the EV3 Brick (A, B, C, D, 1, 2, 3, and 4) that these blocks will use. The Port Selectors are in the top right-hand corner of these blocks.]]></Description>
@@ -18,6 +18,16 @@
       <Category Name="MeasureDCMode" DisplayName="DC Mode">
         <Block Mode="MeasureDCDirection" DisplayName="Direction">
           <Description><![CDATA[The Measure - DC Direction mode detects the direction of the infrared signal corresponding to the RCJ soccer infrared ball (B mode) and outputs the result.]]></Description>
+        </Block>
+      </Category>
+      <Category Name="CompareACMode" DisplayName="AC Mode">
+        <Block Mode="CompareACDirection" DisplayName="Compare Direction">
+          <Description><![CDATA[The Compare - AC Direction mode detects the direction of the infrared signal corresponding to the RCJ soccer infrared ball (A mode) and compares it to a specified set of directions.]]></Description>
+        </Block>
+      </Category>
+      <Category Name="CompareDCMode" DisplayName="DC Mode">
+        <Block Mode="CompareDCDirection" DisplayName="Compare Direction">
+          <Description><![CDATA[The Compare - DC Direction mode detects the direction of the infrared signal corresponding to the RCJ soccer infrared ball (B mode) and compares it to a specified set of directions.]]></Description>
         </Block>
       </Category>
     </PolyGroup>

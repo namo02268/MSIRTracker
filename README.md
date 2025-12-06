@@ -2,9 +2,7 @@
 ## 概要 (Overview)
 **MSIRTracker** は、[Mindsensors製 SPIKE用 IRセンサー「IRTracker」](https://www.mindsensors.com/SPIKE_Prime/89-irtracker.html) を **EV3 Labs** で使用可能にする拡張ブロックです。  ロボカップジュニアで使用される赤外線ボール（RCJ-05）の **Aモード** と **Bモード** に対応しています。
 
-**MSIRTracker** is an extension block that enables the use of the  
-[Mindsensors IR sensor “IRTracker” for SPIKE](https://www.mindsensors.com/SPIKE_Prime/89-irtracker.html) within **EV3 Labs**.  
-It supports both **A mode** and **B mode** infrared signals used in RoboCup Junior (RCJ-05 ball).
+**MSIRTracker** is an extension block that enables the use of the [Mindsensors IR sensor “IRTracker” for SPIKE](https://www.mindsensors.com/SPIKE_Prime/89-irtracker.html) within **EV3 Labs**. It supports both **A mode** and **B mode** infrared signals used in RoboCup Junior (RCJ-05 ball).
 
 ## 方向 AC/DC 測定モード (Measure AC/DC Direction Mode)
 赤外線信号の **方向** を取得するためのモードです。  
@@ -19,8 +17,7 @@ It can detect the signal direction of the RCJ soccer infrared ball (A mode / B m
 複数の方向をセットとして指定し、検出した方向がそのいずれかと一致した場合に「真」を返す比較モードです。
 スイッチブロックやループブロックでも使用できます。
 
-This mode allows you to specify multiple directions as a set.
-If the detected direction matches any of the selected ones, the output becomes true.
+This mode allows you to specify multiple directions as a set. If the detected direction matches any of the selected ones, the output becomes true.
 It can also be used within Switch and Loop blocks.
 
 ![Measure_Direction](./images/README_Compare_Direction.jpg)
